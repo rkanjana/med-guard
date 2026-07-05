@@ -1,0 +1,139 @@
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\features\_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.PLUGGABLE_AUTH is enabled.
+  check_feature_enabled()
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [21928]
+INFO:     Waiting for application startup.
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\app\app_utils\a2a.py:117: UserWarning: [EXPERIMENTAL] AgentCardBuilder: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  agent_card = await AgentCardBuilder(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\tools\mcp_tool\mcp_toolset.py:304: UserWarning: [EXPERIMENTAL] feature FeatureName._MCP_GRACEFUL_ERROR_HANDLING is enabled.
+  session = await self._mcp_session_manager.create_session(
+[07/01/26 21:49:43] INFO     Processing request of type           server.py:733
+                             ListToolsRequest                                  
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\features\_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.BASE_AUTHENTICATED_TOOL is enabled.
+  check_feature_enabled()
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\app\app_utils\a2a.py:125: UserWarning: [EXPERIMENTAL] A2aAgentExecutor: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  agent_executor=A2aAgentExecutor(runner=runner),
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:81: UserWarning: [EXPERIMENTAL] A2aAgentExecutorConfig: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  self._config = config or A2aAgentExecutorConfig()
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57772 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57776 - "POST /apps/app/users/user_3c72125f-e80a-45c6-8a44-2fc66fc9d985/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57777 - "POST /run_sse HTTP/1.1" 200 OK
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\models\google_llm.py:262: UserWarning: [EXPERIMENTAL] feature FeatureName.PROGRESSIVE_SSE_STREAMING is enabled.
+  async for llm_response in aggregator_gen:
+INFO:     127.0.0.1:57779 - "POST /a2a/app/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57779 - "POST /a2a/app HTTP/1.1" 200 OK
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:211: UserWarning: [EXPERIMENTAL] convert_a2a_request_to_agent_run_request: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  run_request = self._config.request_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\request_converter.py:106: UserWarning: [EXPERIMENTAL] convert_a2a_part_to_genai_part: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  genai_parts = part_converter(a2a_part)
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\request_converter.py:111: UserWarning: [EXPERIMENTAL] AgentRunRequest: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  return AgentRunRequest(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:253: UserWarning: [EXPERIMENTAL] TaskResultAggregator: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  task_result_aggregator = TaskResultAggregator()
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:258: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_events: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  for a2a_event in self._config.event_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  message = convert_event_to_a2a_message(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:258: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_events: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  for a2a_event in self._config.event_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  message = convert_event_to_a2a_message(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:258: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_events: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  for a2a_event in self._config.event_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  message = convert_event_to_a2a_message(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:401: UserWarning: [EXPERIMENTAL] convert_genai_part_to_a2a_part: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  a2a_parts = part_converter(part)
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:258: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_events: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  for a2a_event in self._config.event_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  message = convert_event_to_a2a_message(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:258: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_events: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  for a2a_event in self._config.event_converter(
+C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
+  message = convert_event_to_a2a_message(
+INFO:     127.0.0.1:57780 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57781 - "POST /feedback HTTP/1.1" 200 OK
+Failed to convert project number to project ID.
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNAUTHENTICATED:Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\cloud\aiplatform\initializer.py", line 103, in _set_project_as_env_var_or_google_auth_default
+    project_id = resource_manager_utils.get_project_id(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\cloud\aiplatform\utils\resource_manager_utils.py", line 54, in get_project_id
+    project = projects_client.get_project(name=f"projects/{project_number}")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\cloud\resourcemanager_v3\services\projects\client.py", line 833, in get_project
+    response = rpc(
+               ^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 216, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project. [reason: "CREDENTIALS_MISSING"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "cloudresourcemanager.googleapis.com"
+}
+metadata {
+  key: "method"
+  value: "google.cloud.resourcemanager.v3.Projects.GetProject"
+}
+]
+INFO:     127.0.0.1:57782 - "POST /api/stream_reasoning_engine HTTP/1.1" 200 OK
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.1966163Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.1966163Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.2063936Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.2063936Z"}
+{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:52.3912633Z"}
+{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:52.3912633Z"}
+ERROR:opentelemetry.exporter.otlp.proto.http.trace_exporter:Failed to export span batch code: 403, reason: Forbidden

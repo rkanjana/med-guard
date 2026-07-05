@@ -1,0 +1,28 @@
+{
+    "scheduled_medications": [
+        {
+            "drug_name": "Metformin",
+            "dosage": "500mg",
+            "schedule": "Daily with breakfast",
+            "food_constraints": "Avoid high-sugar meals"
+        },
+        {
+            "drug_name": "Lisinopril",
+            "dosage": "10mg",
+            "schedule": "Daily in the morning",
+            "food_constraints": "Avoid high-potassium foods (like large amounts of bananas/spinach)"
+        },
+        {
+            "drug_name": "Simvastatin",
+            "dosage": "20mg",
+            "schedule": "Daily at bedtime",
+            "food_constraints": "Do NOT consume with grapefruit or grapefruit juice"
+        }
+    ],
+    "consumed_items": [],
+    "refills": {
+        "Metformin": 1,
+        "Lisinopril": 1,
+        "Simvastatin": 0
+    }
+}
