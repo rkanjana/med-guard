@@ -92,7 +92,4 @@ make test
 
 ---
 
-## 📽️ Demo Script
-
-The walkthrough video preparation and cues are detailed in [DEMO_SCRIPT.txt](DEMO_SCRIPT.txt). It provides step-by-step cues, timestamps, and stage directions.
 
