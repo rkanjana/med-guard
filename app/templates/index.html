@@ -215,6 +215,8 @@
             flex-direction: column;
             background: rgba(0, 0, 0, 0.1);
             position: relative;
+            height: 100%;
+            overflow: hidden;
         }
 
         .messages-container {
@@ -769,6 +771,13 @@
                         try {
                             const data = JSON.parse(line.substring(6));
                             
+                            // Skip orchestrator's internal routing schema response
+                            if (data.author === "orchestrator_agent" || 
+                                (data.nodeInfo && data.nodeInfo.name === "orchestrator_agent") ||
+                                (data.node_info && data.node_info.name === "orchestrator_agent")) {
+                                continue;
+                            }
+                            
                             // Check for interrupt event
                             if (data.interrupt_id || data.interruptId) {
                                 const intId = data.interrupt_id || data.interruptId;
@@ -804,6 +813,11 @@
                             console.error("Error parsing event line:", e);
                         }
                     }
+                }
+                
+                // If stream finished but no output or interrupt was displayed, show quota warning
+                if (!assistantBubble && !activeInterruptId) {
+                    appendBubble("The request could not be completed. Your Gemini API key quota might be exhausted (429 limit). Please check your AI Studio dashboard or try again in a few minutes.", 'assistant');
                 }
 
             } catch (err) {

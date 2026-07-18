@@ -4,13 +4,13 @@ C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\
   credential_service = InMemoryCredentialService()
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
   super().__init__()
-INFO:     Started server process [21928]
+INFO:     Started server process [8948]
 INFO:     Waiting for application startup.
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\app\app_utils\a2a.py:117: UserWarning: [EXPERIMENTAL] AgentCardBuilder: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
   agent_card = await AgentCardBuilder(
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\tools\mcp_tool\mcp_toolset.py:304: UserWarning: [EXPERIMENTAL] feature FeatureName._MCP_GRACEFUL_ERROR_HANDLING is enabled.
   session = await self._mcp_session_manager.create_session(
-[07/01/26 21:49:43] INFO     Processing request of type           server.py:733
+[07/07/26 00:21:46] INFO     Processing request of type           server.py:733
                              ListToolsRequest                                  
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\features\_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.BASE_AUTHENTICATED_TOOL is enabled.
   check_feature_enabled()
@@ -20,13 +20,13 @@ C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\
   self._config = config or A2aAgentExecutorConfig()
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:57772 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57776 - "POST /apps/app/users/user_3c72125f-e80a-45c6-8a44-2fc66fc9d985/sessions HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57777 - "POST /run_sse HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56342 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56345 - "POST /apps/app/users/user_939406bd-9c8f-493d-9a9b-ed66945fa29f/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56346 - "POST /run_sse HTTP/1.1" 200 OK
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\models\google_llm.py:262: UserWarning: [EXPERIMENTAL] feature FeatureName.PROGRESSIVE_SSE_STREAMING is enabled.
   async for llm_response in aggregator_gen:
-INFO:     127.0.0.1:57779 - "POST /a2a/app/ HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:57779 - "POST /a2a/app HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56348 - "POST /a2a/app/ HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56348 - "POST /a2a/app HTTP/1.1" 200 OK
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\executor\a2a_agent_executor.py:211: UserWarning: [EXPERIMENTAL] convert_a2a_request_to_agent_run_request: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
   run_request = self._config.request_converter(
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\request_converter.py:106: UserWarning: [EXPERIMENTAL] convert_a2a_part_to_genai_part: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
@@ -57,8 +57,8 @@ C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\
   for a2a_event in self._config.event_converter(
 C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\adk\a2a\converters\event_converter.py:572: UserWarning: [EXPERIMENTAL] convert_event_to_a2a_message: ADK Implementation for A2A support (A2aAgentExecutor, RemoteA2aAgent and corresponding supporting components etc.) is in experimental mode and is subject to breaking changes. A2A protocol and SDK are themselves not experimental. Once it's stable enough the experimental mode will be removed. Your feedback is welcome.
   message = convert_event_to_a2a_message(
-INFO:     127.0.0.1:57780 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57781 - "POST /feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56349 - "GET /a2a/app/.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56350 - "POST /feedback HTTP/1.1" 200 OK
 Failed to convert project number to project ID.
 Traceback (most recent call last):
   File "C:\Users\User\OneDrive\Desktop\Kaggle VibeCoding Course\ADK-Workspace\med-guard\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
@@ -129,11 +129,11 @@ metadata {
   value: "google.cloud.resourcemanager.v3.Projects.GetProject"
 }
 ]
-INFO:     127.0.0.1:57782 - "POST /api/stream_reasoning_engine HTTP/1.1" 200 OK
-{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.1966163Z"}
-{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.1966163Z"}
-{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.2063936Z"}
-{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:51.2063936Z"}
-{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"03cd706971f02ed1","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:52.3912633Z"}
-{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"2f1fc72330d8e05f","logging.googleapis.com/trace":"projects/dummy-project/traces/0af010ede2fdae7b6af8919f09291e04","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-01T16:19:52.3912633Z"}
+INFO:     127.0.0.1:56351 - "POST /api/stream_reasoning_engine HTTP/1.1" 200 OK
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"fb49b6ce9442a4bc","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:55.9038878Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"fb49b6ce9442a4bc","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:55.9078868Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.system.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"bde9595739b0a69a","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:55.9105096Z"}
+{"content":"<elided>","logging.googleapis.com/labels":{"event.name":"gen_ai.user.message","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"bde9595739b0a69a","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:55.9115349Z"}
+{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"bde9595739b0a69a","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:57.5552744Z"}
+{"content":"<elided>","finish_reason":"STOP","index":0.0,"logging.googleapis.com/labels":{"event.name":"gen_ai.choice","gen_ai.system":"gemini"},"logging.googleapis.com/spanId":"fb49b6ce9442a4bc","logging.googleapis.com/trace":"projects/dummy-project/traces/cbdfabaa608ab5e9de384b2d615c8483","logging.googleapis.com/trace_sampled":true,"severity":"DEFAULT","time":"2026-07-06T18:51:57.5572463Z"}
 ERROR:opentelemetry.exporter.otlp.proto.http.trace_exporter:Failed to export span batch code: 403, reason: Forbidden

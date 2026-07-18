@@ -19,7 +19,10 @@
             "food_constraints": "Do NOT consume with grapefruit or grapefruit juice"
         }
     ],
-    "consumed_items": [],
+    "consumed_items": [
+        "grapefruit juice",
+        "grapefruit juice"
+    ],
     "refills": {
         "Metformin": 1,
         "Lisinopril": 1,
